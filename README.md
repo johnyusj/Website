@@ -1,1 +1,1 @@
-# Website Code for sharing videos and images on social media platforms more easier.
+# Website Code for recognizing English Letters and Words.
