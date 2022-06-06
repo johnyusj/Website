@@ -1,29 +1,13 @@
 <html>
 <head><title> AI Text Recognition</title></head>
 <h1> <center> AI Recognition of English Letters and Words. </center> </h1> 
-
+<link rel="stylesheet" href = "style.css">
 <body>
-      <div style = "position:relative; left:600px; top:150px;">
-            Insert Image:
-      </div>
-      
-      <div style = "position:relative; left:650px; top:150px;">
-      <button type = "button" onclick="openFile()">Select File</button>
-      </div>
+      <input type = "file" id = "image-input" accept="image/png, image/jpg, image/jpeg">
+      <div id = "display-image"></div>
+      <script src ="script.js"></script>
 </body>
 
 </html>
-<script>
-       function openFile()
-       {
-            let input = document.createElement('input');
-            input.type = 'file';
-            input.onchange = _ => {
-            let files =   Array.from(input.files);
-            console.log(files);
-            };
-            input.click();
-       }
-</script>
 
  
